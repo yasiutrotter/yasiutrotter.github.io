@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/brutel');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body{
+    background-color: #232127;
+
+}
+
+.title{
+    font-family: 'VT323', monospace;
+    margin: 2px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 100;
+    color: #F8A18C;
+}
+
+.coming_soon{
+    font-family: 'VT323', monospace;
+    margin: 2px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 200;
+    color: #F8A18C;
+}
