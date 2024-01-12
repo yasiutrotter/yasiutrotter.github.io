@@ -25,14 +25,14 @@ body{
     color: #F8A18C;
 }
 
-h1 {
+h1{
     font-size: 14px;
     color: #F8A18C;
     text-align: center;
     font-family: 'VT323', monospace;
     font-weight: 200;
     margin: 1rem 0 1rem 2rem;
-  }
+}
 
   @keyframes text2 {
     0%, 50%, 100% {
