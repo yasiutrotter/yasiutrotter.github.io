@@ -38,8 +38,10 @@ window.onload = function() {
         var title_inner_container = document.createElement('div')
         title_inner_container.setAttribute('id', 'title_inner_container')
   
-        var title = document.createElement('h1')
+        var title = document.createElement('a')
         title.setAttribute('id', 'title')
+        title.setAttribute('href', '/')
+        title.textContent = 'acodin.lol'
   
         title_inner_container.append(title)
         title_container.append(title_inner_container)
@@ -152,7 +154,7 @@ window.onload = function() {
         var chat_input = document.createElement('input')
         chat_input.setAttribute('id', 'chat_input')
         // Only a max message length of 1000
-        chat_input.setAttribute('maxlength', 1000)
+        chat_input.setAttribute('maxlength', 128)
         // Get the name of the user
         chat_input.placeholder = `wpisuj teksta (jestes ${parent.get_name()})`
 
