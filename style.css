@@ -6,9 +6,31 @@ body{
     background-color: #232127;
   }
 
+.reklama{
+    position: absolute;
+    width: 250px;
+    top: 50%;
+    margin-left: 225px;
+    text-align: center;
+    padding: 25px;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+}
+
+.bernaszuk{
+    width: 50%;
+    padding: auto;
+    margin: 0 auto;
+    border: 1px solid;
+    position: sticky;
+    text-align: center;
+}
+
 .title{
     margin: 2px;
-    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+
     font-size: 12px;
     font-weight: 100;
     color: #D64045 ;
@@ -34,6 +56,7 @@ body{
     margin-top: 10%;
     list-style-type: none;
     margin: 25px 25px;
+    align-items: center;
 }
 
 .navbar nav li {
@@ -47,6 +70,5 @@ body{
 
 .navbar nav li a {
     text-decoration: none;
-    display: block;
     color: #D64045;
 }
