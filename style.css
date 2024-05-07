@@ -12,25 +12,31 @@ body{
     top: 50%;
     margin-left: 225px;
     text-align: center;
-    padding: 25px;
     transform: translate(-50%, -50%);
-    border: 1px solid;
+}
+
+.patka{
+    position: absolute;
+    width: 250px;
+    top: 50%;
+    margin-left: 1700px;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
 
 .bernaszuk{
     width: 50%;
     padding: auto;
     margin: 0 auto;
-    border: 1px solid;
     position: sticky;
     text-align: center;
 }
+
 
 .title{
     margin: 2px;
     margin-top: 32px;
     margin-bottom: 50px;
-
     font-size: 12px;
     font-weight: 100;
     color: #D64045 ;
