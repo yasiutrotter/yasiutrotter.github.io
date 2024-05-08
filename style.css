@@ -24,6 +24,14 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.grypsujesz img{
+    padding-bottom: 12px;;
+}
+
+.patka img{
+    padding: 12px;
+}
+
 .bernaszuk{
     width: 50%;
     padding: auto;
@@ -44,6 +52,12 @@ body{
 
 .czacik{
   align-items: center;
+}
+
+.oddzielacz{
+    background-color: #D64045;
+    height: 1px;
+    margin-bottom: 25px;
 }
 
 .coming_soon{
